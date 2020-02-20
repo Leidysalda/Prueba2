@@ -1,7 +1,7 @@
 # AirBnB_clone
 
-[![AirBnB]](https://www.youtube.com/watch?v=E12Xc3H2xqo&feature=youtu.be)
-
+[HBNB project overview](https://www.youtube.com/watch?v=E12Xc3H2xqo&feature=youtu.be)
+<a href= "https://www.youtube.com/embed/E12Xc3H2xqo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></a>
 
 A command interpreter to manipulate data without a visual interface, like in a Shell (perfect for development and debugging)
 A website (the front-end) that shows the final product to everybody: static and dynamic
