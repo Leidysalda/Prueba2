@@ -1,7 +1,7 @@
-                                                            **AirBnB clone - The console**
+   # AirBnB clone - The console
 
 
-![The console](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2018/6/815046647d23428a14ca.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20200629%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200629T225230Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=e59eeb4c86e2d7259ae1d570da61b3c0b2afad4cf56f1cccabd272f31fd32a4b)
+![The console](https://camo.githubusercontent.com/68ad7cfff1b23b66fe4f6ec8ccc3a45e17e010fb/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f696e7472616e65742d70726f6a656374732d66696c65732f636f6e63657074732f37342f68626e625f73746570322e706e67)
 
 
 # First step: Write a command interpreter to manage your AirBnB objects.
@@ -28,14 +28,23 @@ All unit tests will be created to validate all our classes and storage engine.
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 How to create a Python package
+
 How to create a command interpreter in Python using the cmd module
+
 What is Unit testing and how to implement it in a large project
+
 How to serialize and deserialize a Class
+
 How to write and read a JSON file
+
 How to manage datetime
+
 What is an UUID
+
 What is *args and how to use it
+
 What is **kwargs and how to use it
+
 How to handle named arguments in a function
 
 
@@ -62,14 +71,14 @@ $
 
 Cotains:
 
-- prompt:(hbnb)
-- quit:	exit the program
-- help: keep it updated
-- create: creates a new instance of BaseModel
-- show: Prints the string representation of an instance based on the class name and id
-- destroy: deletes an instance based on the class name and id
-- all: prints all string representation of all instances based or not on the class name
-- update: updates an instance based on the class name and id by adding or updating attribute 
+- prompt:       (hbnb)
+- quit:	        exit the program
+- help:         keep it updated
+- create:       creates a new instance of BaseModel
+- show:         prints the string representation of an instance based on the class name and id
+- destroy:      deletes an instance based on the class name and id
+- all:          prints all string representation of all instances based or not on the class name
+- update:       updates an instance based on the class name and id by adding or updating attribute 
 
 
 ``` python
@@ -93,14 +102,15 @@ guillaume@ubuntu:~/AirBnB$ ./console.py
 ** class name missing **
 (hbnb) update BaseModel 49faff9a-6318-451f-87b6-910505c55907 first_name "Betty"
 (hbnb) show BaseModel 49faff9a-6318-451f-87b6-910505c55907
-[BaseModel] (49faff9a-6318-451f-87b6-910505c55907) {'first_name': 'Betty', 'id': '49faff9a-6318-451f-87b6-910505c55907', 'created_at': datetime.datetime
-(2017, 10, 2, 3, 10, 25, 903293), 'updated_at': datetime.datetime(2017, 10, 2, 3, 11, 3, 49401)}
+[BaseModel] (49faff9a-6318-451f-87b6-910505c55907) {'first_name': 'Betty', 'id': '49faff9a-6318-451f-87b6-910505c55907',
+'created_at': datetime.datetime(2017, 10, 2, 3, 10, 25, 903293), 'updated_at': datetime.datetime(2017, 10, 2, 3, 11, 3, 49401)}
 (hbnb) create BaseModel
 2dd6ef5c-467c-4f82-9521-a772ea7d84e9
 (hbnb) all BaseModel
-["[BaseModel] (2dd6ef5c-467c-4f82-9521-a772ea7d84e9) {'id': '2dd6ef5c-467c-4f82-9521-a772ea7d84e9', 'created_at': datetime.datetime(2017, 10, 2, 3, 11, 23, 639717),
-'updated_at': datetime.datetime(2017, 10, 2, 3, 11, 23, 639724)}", "[BaseModel] (49faff9a-6318-451f-87b6-910505c55907) 
-{'first_name': 'Betty', 'id': '49faff9a-6318-451f-87b6-910505c55907', 'created_at': datetime.datetime(2017, 10, 2, 3, 10, 25, 903293),
+["[BaseModel] (2dd6ef5c-467c-4f82-9521-a772ea7d84e9) {'id': '2dd6ef5c-467c-4f82-9521-a772ea7d84e9',
+'created_at': datetime.datetime(2017, 10, 2, 3, 11, 23, 639717),'updated_at': datetime.datetime(2017, 10, 2, 3, 11, 23, 639724)}",
+"[BaseModel] (49faff9a-6318-451f-87b6-910505c55907){'first_name': 'Betty', 'id': '49faff9a-6318-451f-87b6-910505c55907',
+'created_at': datetime.datetime(2017, 10, 2, 3, 10, 25, 903293),
 'updated_at': datetime.datetime(2017, 10, 2, 3, 11, 3, 49401)}"]
 (hbnb) destroy BaseModel 49faff9a-6318-451f-87b6-910505c55907
 (hbnb) show BaseModel 49faff9a-6318-451f-87b6-910505c55907
@@ -128,10 +138,10 @@ guillaume@ubuntu:~/AirBnB$
 
 ```
 
-## Deployment 📦
+# Deployment 📦
 
-
-![Project](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2018/6/815046647d23428a14ca.png)
+### Final Product
+![Project](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/8-index.png)
 
 
 # Authors ✒️
