@@ -1,9 +1,9 @@
-AirBnB clone - The console
+#AirBnB clone - The console
 
-(https://holbertonintranet.s3.amazonaws.com/uploads/medias/2018/6/815046647d23428a14ca.png)
+![The console](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2018/6/815046647d23428a14ca.png)
 
 
-##First step: Write a command interpreter to manage your AirBnB objects.
+# First step: Write a command interpreter to manage your AirBnB objects.
 
 
 This is the first step towards creating the first complete web app - the AirBnB clone.
@@ -18,7 +18,7 @@ All unit tests will be created to validate all our classes and storage engine.
 
 # Starting 🚀
 
-[![Video](https://youtu.be/p00ES-5K4C8)
+[![The console](http://img.youtube.com/vi/p00ES-5K4C8/0.jpg)](http://www.youtube.com/watch?v=p00ES-5K4C8 "AirBnB The Console")
 
 
 
@@ -69,7 +69,7 @@ Cotains:
 - destroy: deletes an instance based on the class name and id
 - all: prints all string representation of all instances based or not on the class name
 - update: updates an instance based on the class name and id by adding or updating attribute 
-- 
+
 
 ``` python
 
@@ -83,18 +83,24 @@ guillaume@ubuntu:~/AirBnB$ ./console.py
 (hbnb) create BaseModel
 49faff9a-6318-451f-87b6-910505c55907
 (hbnb) all BaseModel
-["[BaseModel] (49faff9a-6318-451f-87b6-910505c55907) {'created_at': datetime.datetime(2017, 10, 2, 3, 10, 25, 903293), 'id': '49faff9a-6318-451f-87b6-910505c55907', 'updated_at': datetime.datetime(2017, 10, 2, 3, 10, 25, 903300)}"]
+["[BaseModel] (49faff9a-6318-451f-87b6-910505c55907) {'created_at': datetime.datetime(2017, 10, 2, 3, 10, 25, 903293),
+'id': '49faff9a-6318-451f-87b6-910505c55907', 'updated_at': datetime.datetime(2017, 10, 2, 3, 10, 25, 903300)}"]
 (hbnb) show BaseModel 49faff9a-6318-451f-87b6-910505c55907
-[BaseModel] (49faff9a-6318-451f-87b6-910505c55907) {'created_at': datetime.datetime(2017, 10, 2, 3, 10, 25, 903293), 'id': '49faff9a-6318-451f-87b6-910505c55907', 'updated_at': datetime.datetime(2017, 10, 2, 3, 10, 25, 903300)}
+[BaseModel] (49faff9a-6318-451f-87b6-910505c55907) {'created_at': datetime.datetime(2017, 10, 2, 3, 10, 25, 903293),
+'id': '49faff9a-6318-451f-87b6-910505c55907', 'updated_at': datetime.datetime(2017, 10, 2, 3, 10, 25, 903300)}
 (hbnb) destroy
 ** class name missing **
 (hbnb) update BaseModel 49faff9a-6318-451f-87b6-910505c55907 first_name "Betty"
 (hbnb) show BaseModel 49faff9a-6318-451f-87b6-910505c55907
-[BaseModel] (49faff9a-6318-451f-87b6-910505c55907) {'first_name': 'Betty', 'id': '49faff9a-6318-451f-87b6-910505c55907', 'created_at': datetime.datetime(2017, 10, 2, 3, 10, 25, 903293), 'updated_at': datetime.datetime(2017, 10, 2, 3, 11, 3, 49401)}
+[BaseModel] (49faff9a-6318-451f-87b6-910505c55907) {'first_name': 'Betty', 'id': '49faff9a-6318-451f-87b6-910505c55907', 'created_at': datetime.datetime
+(2017, 10, 2, 3, 10, 25, 903293), 'updated_at': datetime.datetime(2017, 10, 2, 3, 11, 3, 49401)}
 (hbnb) create BaseModel
 2dd6ef5c-467c-4f82-9521-a772ea7d84e9
 (hbnb) all BaseModel
-["[BaseModel] (2dd6ef5c-467c-4f82-9521-a772ea7d84e9) {'id': '2dd6ef5c-467c-4f82-9521-a772ea7d84e9', 'created_at': datetime.datetime(2017, 10, 2, 3, 11, 23, 639717), 'updated_at': datetime.datetime(2017, 10, 2, 3, 11, 23, 639724)}", "[BaseModel] (49faff9a-6318-451f-87b6-910505c55907) {'first_name': 'Betty', 'id': '49faff9a-6318-451f-87b6-910505c55907', 'created_at': datetime.datetime(2017, 10, 2, 3, 10, 25, 903293), 'updated_at': datetime.datetime(2017, 10, 2, 3, 11, 3, 49401)}"]
+["[BaseModel] (2dd6ef5c-467c-4f82-9521-a772ea7d84e9) {'id': '2dd6ef5c-467c-4f82-9521-a772ea7d84e9', 'created_at': datetime.datetime(2017, 10, 2, 3, 11, 23, 639717),
+'updated_at': datetime.datetime(2017, 10, 2, 3, 11, 23, 639724)}", "[BaseModel] (49faff9a-6318-451f-87b6-910505c55907) 
+{'first_name': 'Betty', 'id': '49faff9a-6318-451f-87b6-910505c55907', 'created_at': datetime.datetime(2017, 10, 2, 3, 10, 25, 903293),
+'updated_at': datetime.datetime(2017, 10, 2, 3, 11, 3, 49401)}"]
 (hbnb) destroy BaseModel 49faff9a-6318-451f-87b6-910505c55907
 (hbnb) show BaseModel 49faff9a-6318-451f-87b6-910505c55907
 ** no instance found **
@@ -135,4 +141,4 @@ guillaume@ubuntu:~/AirBnB$
 
 
 ---
-Thank you for reiding 😊
+Thank you fo reading 😊
